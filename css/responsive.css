@@ -1,0 +1,404 @@
+
+
+/* Large Device */
+@media (max-width: 1199.98px) {
+  .banner h1::after,
+  .storeText h4::after,
+  .teamText h4::after,
+  .saleText h4::after,
+  .faqText h3::after,
+  #popularGamePart h3::after,
+  #liveStreamPart h3::after {
+    display: none;
+  }
+
+  .footerTopFlex {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Medium Device */
+@media (max-width: 991.98px) {
+
+  .navbar-nav {
+    background: #ff4655;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .socialPart {
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #bannerPart {
+    padding-top: 180px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .banner p {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .btnOne a {
+    margin-top: 30px;
+  }
+
+  .socialIcon a i {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+
+  .aboutHeading h3,
+  .storeText h4,
+  .teamText h4,
+  .faqText h3,
+  #liveStreamPart h3 {
+    font-size: 30px;
+    line-height: 42px;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .gamePlatform h3 {
+    padding-top: 40px;
+  }
+
+  .card {
+    margin-bottom: 25px;
+  }
+
+  .rightCatalog img {
+    margin-left: 0;
+  }
+
+  .catalogBg {
+    padding: 30px;
+  }
+
+  .footerTop {
+    position: static;
+  }
+
+  .footerTopFlex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footerTopInput input {
+    margin: 0;
+    width: 100%;
+  }
+
+  .footerTopBtn button {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .logoTwoImg img,
+  .footerAllLinks h3 {
+    padding-top: 40px;
+  }
+
+  .faqBorderY {
+    display: none;
+  }
+}
+
+/* Small Device */
+@media (max-width: 767.98px) {
+
+  .banner h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .banner h3 {
+    font-size: 22px;
+  }
+
+  .aboutHeading h3,
+  .storeText h4,
+  .teamText h4,
+  .faqText h3,
+  #liveStreamPart h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .clockText h5,
+  .clockTextTwo h5 {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .clock h4 {
+    font-size: 28px;
+    padding-top: 15px;
+  }
+
+  .flex,
+  .flexTwo {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    clip-path: none;
+  }
+
+  .teamFlex {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .teamBtn a {
+    display: inline-block;
+  }
+
+  .overlay,
+  .overlayTwo,
+  .overlayThree,
+  .overlayFour {
+    position: static;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footerAllLinks img {
+    width: 100%;
+  }
+}
+
+/* Mobile Device */
+@media (max-width: 575.98px) {
+
+.navbar{
+  padding: 12px 0;
+}
+
+.navbar-toggler{
+  border: none;
+  box-shadow: none !important;
+}
+
+.navbar-toggler i{
+  color: #fff;
+  font-size: 26px;
+}
+.navbar{
+    width: 25%;
+}
+
+
+.navbar-collapse{
+  width: 92%;
+  margin:15px auto 0;
+  background:#1a1a1a;
+  border-radius:15px;
+  padding:20px;
+}
+
+.navbar-nav{
+  background: transparent;
+  padding: 0;
+}
+
+.navbar-nav .nav-item{
+  margin: 8px 0;
+}
+
+.navbar-nav .nav-link{
+  margin-left: 0;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-link:hover{
+  transform: none;
+  color: #ff4655;
+}
+
+.socialPart{
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,.1);
+  background: transparent;
+}
+
+.socialPart a{
+  display: inline-block;
+  margin: 8px 10px;
+  font-size: 16px;
+}
+
+.navbar img{
+  width: 120px;
+}
+
+}
+@media (max-width: 575.98px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .navbar-brand img,
+  .navbar img {
+    width: 120px;
+  }
+
+  #bannerPart {
+    padding-top: 150px;
+    padding-bottom: 60px;
+  }
+
+  .banner h1 {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: start;
+  }
+
+  .banner h3 {
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .banner p {
+    font-size: 12px;
+    text-align: start;
+    padding-right: 200px;
+  }
+
+  .btn a {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  .socialIcon a i {
+    font-size: 24px;
+    padding-top: 35px;
+    
+  }
+.socialIcon{
+    text-align: start;
+}
+  .aboutHeading h3,
+  .storeText h4,
+  .teamText h4,
+  .faqText h3,
+  #liveStreamPart h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .gamePlatform h3 {
+    font-size: 20px;
+  }
+
+  .gamePlatform p {
+    font-size: 15px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h3 {
+    font-size: 28px;
+  }
+
+  .saleText h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .catalogWhiteText h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .firstStore {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .firstStore h5 {
+    font-size: 20px;
+  }
+
+  .teamMain h4 {
+    font-size: 24px;
+  }
+
+  .teamMain p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .faqFlex {
+    flex-direction: column;
+  }
+
+  .faqNumber h3,
+  .faqNumberTwo h3 {
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .faqNumText h3,
+  .faqNumTextTwo h3 {
+    margin: 15px 0 10px 0;
+  }
+
+  .faqNumText p,
+  .faqNumTextTwo p {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+  .footerTopText h3 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0;
+  }
+
+  .footerTopInput input {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .footerTopBtn button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .footerSocialIcon a i {
+    font-size: 28px;
+  }
+
+  .end h3 {
+    font-size: 14px;
+  }
+
+  .back-to-top a i {
+    font-size: 24px;
+  }
+}
