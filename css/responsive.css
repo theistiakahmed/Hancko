@@ -1,4 +1,7 @@
-
+/* =====================================
+   FULL RESPONSIVE FIX
+   Put inside responsive.css
+===================================== */
 
 /* Large Device */
 @media (max-width: 1199.98px) {
@@ -182,73 +185,30 @@
 }
 
 /* Mobile Device */
-@media (max-width: 575.98px) {
 
-.navbar{
-  padding: 12px 0;
+@media (max-width: 390px){
+    .navbar{
+      width: 40%;
+    }
+}
+@media (max-width: 430px){
+    .navbar{
+      width: 70%;
+
+    }
+    .back-to-top{
+  right: 12px;
+  bottom: 12px;
 }
 
-.navbar-toggler{
-  border: none;
-  box-shadow: none !important;
+.nextTwo {
+    font-size: 30px;
+    color: #ff4655;
+    position: absolute;
+    right: -190px;
+    bottom: 180px;
+    cursor: pointer;
 }
-
-.navbar-toggler i{
-  color: #fff;
-  font-size: 26px;
-}
-.navbar{
-    width: 25%;
-}
-
-
-.navbar-collapse{
-  width: 92%;
-  margin:15px auto 0;
-  background:#1a1a1a;
-  border-radius:15px;
-  padding:20px;
-}
-
-.navbar-nav{
-  background: transparent;
-  padding: 0;
-}
-
-.navbar-nav .nav-item{
-  margin: 8px 0;
-}
-
-.navbar-nav .nav-link{
-  margin-left: 0;
-  color: #fff;
-  font-size: 18px;
-  display: block;
-  padding: 10px 0;
-}
-
-.navbar-nav .nav-link:hover{
-  transform: none;
-  color: #ff4655;
-}
-
-.socialPart{
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 1px solid rgba(255,255,255,.1);
-  background: transparent;
-}
-
-.socialPart a{
-  display: inline-block;
-  margin: 8px 10px;
-  font-size: 16px;
-}
-
-.navbar img{
-  width: 120px;
-}
-
 }
 @media (max-width: 575.98px) {
 
@@ -271,20 +231,19 @@
   }
 
   .banner h1 {
-    font-size: 25px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 42px;
     text-align: start;
   }
 
   .banner h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: start;
   }
 
   .banner p {
-    font-size: 12px;
+    font-size: 14px;
     text-align: start;
-    padding-right: 200px;
   }
 
   .btn a {
@@ -295,10 +254,12 @@
   .socialIcon a i {
     font-size: 24px;
     padding-top: 35px;
-    
   }
 .socialIcon{
-    text-align: start;
+  text-align: start;
+}
+button.navbar-toggler{
+  color: white;
 }
   .aboutHeading h3,
   .storeText h4,
